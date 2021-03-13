@@ -1,4 +1,4 @@
-# Desafio GRUB DevChallenge
+# Desafio GRAB DevChallenge
 
 ![Preview no Youtube](https://youtu.be/psTuLDxRp4E)
 
