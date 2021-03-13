@@ -1,0 +1,30 @@
+:root {
+  --azul: #4e5bee;
+  --warn: #ff5757;
+  --white: #fff;
+  --cinza: #f8f8f8;
+  --cinza-dark: #555454;
+  --background: #f8f8f8;
+  --text: #555454;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  font-size: 100%; /* 93.75%;  15px */
+}
+
+body {
+  height: 100vh;
+  background: var(--cinza);
+  color: var(--text);
+
+  -webkit-font-smoothing: antialiased;
+}
