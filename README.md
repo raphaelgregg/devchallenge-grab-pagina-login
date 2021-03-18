@@ -1,4 +1,4 @@
-# Desafio GRAB DevChallenge
+# Page Login GRAB - Desafio DevChallenge
 
 [Preview no Youtube](https://www.youtube.com/watch?v=psTuLDxRp4E)
 
@@ -12,8 +12,8 @@
   <h3 align="center">Grab - Página de login</h3>
 </p>
 <p align="center">
-  <a href="https://github.com/magdielndantas/grab-pagina-de-login">Desafio Devchallenge</a> | 
-  <a href="https://www.linkedin.com/in/magdielndantas/">Contato Author</a>
+  <a href="https://grab-devchallenge.vercel.app/index.html">Preview</a> | 
+  <a href="https://www.linkedin.com/in/raphaelgregg/">Contato</a>
 </p>
 
 ## 🎮 Sobre o desafio
