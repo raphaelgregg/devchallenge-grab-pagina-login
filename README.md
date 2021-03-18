@@ -17,7 +17,7 @@
 </p>
 
 ## 🎮 Sobre o desafio
-Desafio <a href="https://devchallenge.com.br/challenges/5f261924ecb9243236c05385/details">Grap - pagina de login</a>, no site <a href="https://devchallenge.com.br/">DevChallenge</s>, criado por <a href="https://www.linkedin.com/in/magdielndantas/">Magdiel Dantas</a>.
+Desafio <a href="https://devchallenge.com.br/challenges/5f261924ecb9243236c05385/details">Grap - pagina de login</a>, no site <a href="https://devchallenge.com.br/">DevChallenge</a>, criado por <a href="https://www.linkedin.com/in/magdielndantas/">Magdiel Dantas</a>.
 
   * Criar uma página de login e verificar se o formulário foi preenchido corretamente.
 
