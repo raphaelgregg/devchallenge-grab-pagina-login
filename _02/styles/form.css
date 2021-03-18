@@ -21,8 +21,8 @@ form {
   margin-top: 1.125rem;
 }
 
-input,
-button {
+form input,
+form button {
   /* reset appearence */
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -45,15 +45,13 @@ button {
   font-size: 1rem;
 }
 
-button {
+form button {
   margin-top: 1.625rem;
   padding: 12px 0;
 
   background: var(--cinza);
   color: var(--cinza-dark);
   font-weight: 600;
-
-  cursor: pointer;
 }
 
 /* .input-group input:focus {
@@ -98,19 +96,4 @@ main form .input-group img {
 
 .input-group p {
   color: var(--white);
-}
-
-.forgot {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  
-}
-.forgot a {
-  color: var(--white);
-  transition: 0.5s;
-}
-
-.forgot a:hover {
-  opacity: 0.5;
 }

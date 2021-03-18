@@ -1,50 +1,25 @@
-const users = [
-    {
-        name:"Jonh Snow",
-        email: "johnsnow@exemple.com",
-        password: '123456',
-    },
-    {
-        name:"Jonh Pyke",
-        email: "johnpyke@exemple.com",
-        password: '654321',
-    },
-    {
-        name:"Je",
-        email: "j@j",
-        password: '123',
-    }
-]
-
-function signIn() {
-
-    const email = document.getElementById('email');
-    const password = document.getElementById('password');
-
-    const user = users.find(user => user.email === email.value && user.password === password.value);
-
-    if(!user){
-        console.log("email ou senha incorreto!");
-        return
-    }
-
-    return window.location.href ='dashboard.html';
-    
-}
-
-
-
 document.querySelector("form")
     .addEventListener("submit", event => {
-        
         console.log("enviar formulário");
 
         // função preventDefaul() não enviar o formulário, evitando o reload
         event.preventDefault();
     });
-
 const fields = document.querySelectorAll("[required]");
-console.log(fields.validity);
+console.log(fields);
+
+const user = [
+    {
+        name:"Jonh Snow",
+        email: "johnsnow@exemple.com",
+        password: 123456,
+    },
+    {
+        name:"Jonh Pyke",
+        email: "johnpyke@exemple.com",
+        password: 654321,
+    }
+]
 
 function ValidateField(field) {
     // logica para verificar se existem erros
@@ -62,13 +37,10 @@ function ValidateField(field) {
         return foundError;
     }
 
-    // console.log(field)
+    console.log(field)
 
     function customMessage(typeError) {
         const messages = {
-            text: {
-                valueMissing:"Nome é obrigatório",
-            },
             email: {
                 valueMissing: "Email é obrigatório",
                 typeMismatch: "Por favor, preencha um email válido",
